@@ -84,11 +84,11 @@ def main():
     st.sidebar.info("System Status: **Active**")
 
     with st.spinner("Initializing Fleet Systems..."):
-        df = load_data('train.csv')
+        df = load_data('train_small.csv')
         model, model_status = load_model()
     
     if df is None:
-        st.error("🚨 Critical Error: 'train.csv' not found. Please put the dataset in the project folder.")
+        st.error("🚨 Critical Error: 'train_small.csv' not found. Please put the dataset in the project folder.")
         st.stop()
 
     st.markdown(f"### Intelligent Fleet Allocation System")
