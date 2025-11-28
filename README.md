@@ -60,11 +60,3 @@ Place your train.csv file inside the root project folder.
 streamlit run app.py
 ```
 
-## 📂 Project Structure
-Plaintext
-/
-├── app.py                   # The Main Streamlit Application (Frontend)
-├── Final_Research.ipynb     # The Research Notebook (Backend/Experiments)
-├── kmeans_fleet_model.pkl   # The Pre-trained ML Model (Serialized)
-├── requirements.txt         # Project Dependencies
-└── train.csv                # Dataset (Not included in repo, see instructions)
