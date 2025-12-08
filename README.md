@@ -1,6 +1,6 @@
 # 🚖 Intelligent Fleet Allocation System (Phase 1)
 
-> **B.Tech Major Project | Department of Computer Science & Engineering | NSUT**
+> **B.Tech Major Project | Department of Computer Science & Engineering | NSUT*
 
 This repository contains the source code and research methodologies for the **Intelligent Fleet Allocation System**, a machine learning-based solution designed to optimize urban taxi fleet positioning.
 
